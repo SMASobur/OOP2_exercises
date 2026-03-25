@@ -4,7 +4,6 @@ package se.lexicon.exercise_1;
 // WinterTireChange subclass
 public class WinterTireChange extends Service {
     private static final int WINTER_SERVICE_DURATION = 60;
-    private static final double WINTER_SURCHARGE = 20.00;
 
     public WinterTireChange(String id, String name, double basePrice) {
         super(id, name, basePrice);
