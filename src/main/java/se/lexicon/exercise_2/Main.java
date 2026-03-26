@@ -27,8 +27,9 @@ public class Main {
 
         // Demonstrate polymorphism
         System.out.println("-".repeat(50));
-        System.out.println("\n=== Polymorphism Example ===");
+        System.out.println("=== Polymorphism Example ===");
         System.out.println("-".repeat(50));
+
         // Store service objects in List<Service> - Polymorphism in action!
         List<Service> services = new ArrayList<>();
         services.add(winterService);
